@@ -1,0 +1,36 @@
+
+# Logs
+*.log
+
+# Sensitive Information
+.env
+secrets.*
+*.key
+*.pem
+id_rsa
+id_rsa.pub
+*.crt
+*.cer
+*.csr
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependency Files
+node_modules/
+vendor/
+venv/
+__pycache__/
+*.pyc
+
+# Security Tools/Generated Reports
+*.report
+*.xml
+*.json
+*.db
+
+# Temporary Files
+*.tmp
+*.swp
